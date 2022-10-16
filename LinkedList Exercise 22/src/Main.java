@@ -9,6 +9,10 @@ public class Main {
         colors.add("pink");
         colors.add("white");
 
-        System.out.println(colors.peekLast());
+        if (colors.contains("pink")) {
+            System.out.println("exists");
+        } else {
+            System.out.println("not exists");
+        }
     }
 }
